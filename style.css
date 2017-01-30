@@ -1,0 +1,48 @@
+h1 {
+  color: #ffffff;
+  font-style: normal;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 300px;
+}
+
+h2 {
+  color: #ffffff;
+  font-style: normal;
+  font-family: sans-serif;
+  text-align:center;
+  position: relative;
+  bottom: 350px;
+}
+
+body {
+  background: rgba(0, 0, 0, 0.7);
+  background: rgb(0, 0, 0);
+  background-image: url("https://d13csqd2kn0ewr.cloudfront.net/uploads/image/file/60860/cropped_Amazing-Michael-Jordan-Wallpaper-03.jpg?ts=1405613663");
+  -webkit-background-size: cover;
+  -mozbackground-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.btn {
+    background-color: #ff0000; /* Red */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.tint {
+  position: relative;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+}
