@@ -12,15 +12,10 @@
 // Reveals: 5 Correct Answers, Michael Jordan, Bulls -m "Your a God when it comes to this game, but can you three-peat?"
 // Randomize the responses whether right or wrong. If a person guess a wrong answer they'll get a gif from the 'wrong answer folder'. If a person guess right they'll get a gif from the 'right answer' folder.
 // Find out whether or not the player is a true Michael Jordan enthusiast/fan.
-// <div>
-//   What state is Michael Jordan from?
-// </div>
-// <div>
-//   What team did Michael win Championships with in the NBA?
-// </div>
-// <div>
-//   What the name of ?
-// </div>
-// <div>
-//   What state is Michael Jordan from?
+// Questions and Answers Below:
+// Q: What jersey number did Michael Jordan wear? A: 23
+// Q: What state is Michael Jordan from? A: North Carolina
+// Q: What team did Michael Jordan win Championships with in the NBA? A: Chicago Bulls
+// Q: What the name of the movie Michael Jordan was in with Bugs Bunny? A: Space Jam
+// Q: What was the second number Michael Jordan wear in the NBA? A: 45
 // </div>
