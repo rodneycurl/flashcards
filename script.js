@@ -1,7 +1,7 @@
 // build a flash-cards flip game that marks when the player got the flash-card right or wrong (Based on Michael Jordan).
 // build a landing page "Which Jordan Did What?" add a "Play Now" button
-// if the player gets the flash-card correct, congratulate them (alert/prompt). Then reveal a button that will allow the player to move on to the next question.
-// if the player gets the flash-card wrong, notify them they are wrong and reveal the answer (alert/prompt). Then reveal a button that will allow the player to move on to the next question.
+// if the player gets the flash-card correct, congratulate them (alert). Then reveal a button that will allow the player to move on to the next question.
+// if the player gets the flash-card wrong, notify them they are wrong and reveal the answer (alert). Then reveal a button that will allow the player to move on to the next question.
 // create a headline introducing the question. add an image under the <h1>. write the question in <h2> or <p>. Build an input field for the player to enter their answer with a "submit" button.
 // output a jordan for each level depending on the number of questions you get correct.
 // ask 5 questions total.
@@ -12,3 +12,15 @@
 // Reveals: 5 Correct Answers, Michael Jordan, Bulls -m "Your a God when it comes to this game, but can you three-peat?"
 // Randomize the responses whether right or wrong. If a person guess a wrong answer they'll get a gif from the 'wrong answer folder'. If a person guess right they'll get a gif from the 'right answer' folder.
 // Find out whether or not the player is a true Michael Jordan enthusiast/fan.
+// <div>
+//   What state is Michael Jordan from?
+// </div>
+// <div>
+//   What team did Michael win Championships with in the NBA?
+// </div>
+// <div>
+//   What the name of ?
+// </div>
+// <div>
+//   What state is Michael Jordan from?
+// </div>

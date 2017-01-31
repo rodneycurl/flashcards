@@ -1,0 +1,49 @@
+h1 {
+  color: #000000;
+  font-style: normal;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 300px;
+}
+
+
+#square {
+	width: 100px;
+	height: 100px;
+	background: red;
+}
+
+h2 {
+  color: #000000;
+  font-style: normal;
+  font-family: sans-serif;
+  text-align:center;
+  position: relative;
+  bottom: 350px;
+}
+
+body {
+  text-align: center;
+}
+
+.btn {
+    background-color: #ff0000; /* Red */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.tint {
+  position: relative;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+}
