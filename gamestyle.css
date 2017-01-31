@@ -1,10 +1,14 @@
 h1 {
   color: #000000;
   font-style: normal;
-  font-family: sans-serif;
+  font-variant: normal;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-weight: bold;
   text-align: center;
-  font-size: 30px;
-  padding-top: 50px;
+  font-size: 35px;
+  padding: 5px 0px 30px 0px;
+  margin: 0;
+	line-height: 30px;
 }
 
 h2 {
@@ -18,12 +22,22 @@ h2 {
 
 body {
   text-align: center;
+  background: url("mj-photos/bulls/bulls-1.jpg");
+  background-size: contain;
 }
 
-.question {
+main {
+  width: 720px;
+  background: white;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.questionsList {
   text-align: center;
   font-family: sans-serif;
   font-size: 20px;
+  background: #fff;
 }
 
 .btn {
@@ -39,13 +53,27 @@ body {
 }
 
 .inputanswersubmit {
-  background-color: #00ff00;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   border: none;
-  padding: 10px 20px;
+  padding: 12px 20px;
   font-size: 14px;
+  margin: 8px -4px;
 }
 
+.input4answer {
+  padding: 12px 20px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
 
+.question {
+  margin: 8px 0px;
+}
+
+.logo {
+  padding: 15px;
+}
 /*.tint {
   position: relative;
   float: left;

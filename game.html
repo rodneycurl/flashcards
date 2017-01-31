@@ -1,24 +1,34 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="gamestyle.css">
     <meta charset="utf-8">
     <title></title>
-    <h1>You're Now Playing What Did Jordan Do?</h1>
   </head>
   <body>
-    <div class="cardfront">
-      <img src="mj-photos/bulls/bulls-09.jpg">
-    <div class="question">
-      What number did Michael Jordan wear?
-    </div>
-    <div class="input">
-      <input class="input4answer" type="text" placeholder="Take a shot">
-      <input class="inputanswersubmit" type="button" value="Submit">
-    </div>
-    <!-- <div id='square' </div> -->
+    <main>
+      <img class="logo" src="mj-photos/jumpman/jumpman-2.png">
+      <h1>DO YOU KNOW AIR JORDAN?</h1>
+      <div class="cardfront">
+        <img src="mj-photos/bulls/bulls-09.jpg">
+        <h2 class="questionsList">
+        </h2>
+      <div class="input">
+
+        <input class="input4answer" type="text" placeholder="Take a shot">
+        <input class="inputanswersubmit" type="button" value="SUBMIT">
+
+        <!-- <input class="next" type="text" placeholder="Next Flash Card"> -->
+      </div>
+      <div class="cardback" display="none" style="display:none;">
 
 
+        <!-- <img src="correct.jpg"> -->
 
+      <!-- <div id='square' </div> -->
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   </body>
+  <script src="script.js"></script>
 </html>

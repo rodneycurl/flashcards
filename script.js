@@ -1,3 +1,4 @@
+$(document).ready(function(){
 // build a flash-cards flip game that marks when the player got the flash-card right or wrong (Based on Michael Jordan).
 // build a landing page "Which Jordan Did What?" add a "Play Now" button
 // if the player gets the flash-card correct, congratulate them (alert). Then reveal a button that will allow the player to move on to the next question.
@@ -18,4 +19,63 @@
 // Q: What team did Michael Jordan win Championships with in the NBA? A: Chicago Bulls
 // Q: What the name of the movie Michael Jordan was in with Bugs Bunny? A: Space Jam
 // Q: What was the second number Michael Jordan wear in the NBA? A: 45
-// </div>
+// Q:A +more
+
+var questionList = [
+  {
+    id: 1,
+    text: 'What state is Michael Jordan from?',
+    answer: 'North Carolina'},
+    {
+      id: 2,
+      text:'What was Michael Jordan\'s jersey number for the majority of his career in the NBA?',
+      answer: '23'
+    },
+    {
+      id: 3,
+      text:'What team did Michael Jordan win a NBA Championship title with?',
+      answer: 'Chicago Bulls'
+    },
+    {
+      id: 4,
+      text:'What\'s the name of the movie Michael Jordan starred in with Bugs Bunny?',
+      answer: 'Space Jam'
+    },
+    {
+      id: 5,
+      text:'What MLB Baseball team did Michael Jordan play for?',
+      answer: 'White Soxs'
+    },
+    {
+      id: 6,
+      text:'What college did Michael Jordan attend?',
+      answer: 'UNC Chapel Hill'
+    },
+    {
+      id: 7,
+      text:'What shoes did Michael Jordan wear in the flu game?',
+      answer: 'Air Jordan 12 Black/Red'
+    },
+]
+
+var currentQuestion = 0
+
+// REMEMBER $('.message').html('<h1> You Won </h1>') //// $('.message').html()
+
+function beginGame() {
+  //instead of console log, this is where you would use jquery to change the text/images on DOM
+  console.log(questionList[currentQuestion].text);
+  $(".questionsList").html( questionList[currentQuestion].text );
+  console.log('begin');
+}
+
+  $(".inputanswersubmit").click(nextQuestion)
+
+function nextQuestion(){
+  //instead of console log, this is where you would use jquery to change the text/images on DOM
+  currentQuestion++
+  $(".questionsList").html( questionList[currentQuestion].text );
+  console.log($(".questionsList").html())
+}
+beginGame()
+});
