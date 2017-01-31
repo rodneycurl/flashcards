@@ -4,14 +4,7 @@ h1 {
   font-family: sans-serif;
   text-align: center;
   font-size: 30px;
-  padding-top: 300px;
-}
-
-
-#square {
-	width: 500px;
-	height: 500px;
-	background: red;
+  padding-top: 50px;
 }
 
 h2 {
@@ -27,6 +20,12 @@ body {
   text-align: center;
 }
 
+.question {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
 .btn {
     background-color: #ff0000; /* Red */
     border: none;
@@ -39,11 +38,25 @@ body {
     font-family: sans-serif;
 }
 
-.tint {
+.inputanswersubmit {
+  background-color: #00ff00;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+
+/*.tint {
   position: relative;
   float: left;
   margin-right: 20px;
   margin-bottom: 20px;
   cursor: pointer;
   box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
-}
+}*/
+
+/*#square {
+	width: 500px;
+	height: 500px;
+	background: red;
+}*/
