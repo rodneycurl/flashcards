@@ -28,12 +28,12 @@ var questionList = [
     answer: 'North Carolina'},
     {
       id: 2,
-      text:'What was Michael Jordan\'s jersey number for the majority of his career in the NBA?',
+      text:'What was MJ\'s first NBA jersey number?',
       answer: '23'
     },
     {
       id: 3,
-      text:'What team did Michael Jordan win a NBA Championship title with?',
+      text:'What team did MJ win 6 NBA finals with?',
       answer: 'Chicago Bulls'
     },
     {
@@ -43,7 +43,7 @@ var questionList = [
     },
     {
       id: 5,
-      text:'What MLB Baseball team did Michael Jordan play for?',
+      text:'What MLB Baseball team did MJ play for?',
       answer: 'White Soxs'
     },
     {
@@ -53,7 +53,7 @@ var questionList = [
     },
     {
       id: 7,
-      text:'What shoes did Michael Jordan wear in the flu game?',
+      text:'What shoes did MJ wear in the flu game?',
       answer: 'Air Jordan 12 Black/Red'
     },
 ]
