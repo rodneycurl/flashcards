@@ -17,7 +17,14 @@ h2 {
   font-family: sans-serif;
   text-align:center;
   position: relative;
-  bottom: 350px;
+  bottom: 250px;
+}
+
+.hero {
+  width: 100%;
+  height: 100%;
+  overflow:hidden;
+  /*background-size: contain;*/
 }
 
 body {
@@ -52,6 +59,19 @@ main {
     font-family: sans-serif;
 }
 
+.next {
+  display:none;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  border: none;
+  padding: 12px 20px;
+  font-size: 14px;
+  width: 300px;
+  /*margin: 8px -4px;*/
+  margin: 0 auto;
+}
+
 .inputanswersubmit {
   background-color: #000000;
   color: #ffffff;
@@ -67,12 +87,23 @@ main {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
+.cardfront {
+  height: 300px;
+}
+
 .question {
   margin: 8px 0px;
 }
 
 .logo {
   padding: 15px;
+}
+
+.score {
+}
+
+.playagain {
+  display: none;
 }
 /*.tint {
   position: relative;
