@@ -15,9 +15,16 @@ h2 {
   color: #000000;
   font-style: normal;
   font-family: sans-serif;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-weight: bold;
   text-align:center;
   position: relative;
-  bottom: 250px;
+  bottom: 200px;
+}
+
+h4 {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-weight: bold;
 }
 
 .hero {
@@ -73,7 +80,7 @@ main {
 }
 
 .inputanswersubmit {
-  background-color: #000000;
+  background-color: #ff0000;
   color: #ffffff;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   border: none;
@@ -100,6 +107,9 @@ main {
 }
 
 .score {
+  text-align: left;
+  margin-left: 30px;
+  margin: 40px 0px 0px 40px;
 }
 
 .playagain {

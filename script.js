@@ -25,7 +25,7 @@ var questionList = [
   {
     id: 1,
     text: 'What state is Michael Jordan from?',
-    answer: 'North Carolina'},
+    answer: 'NC'},
     {
       id: 2,
       text:'What was MJ\'s first NBA jersey number?',
@@ -35,28 +35,27 @@ var questionList = [
       id: 3,
       text:'What team did MJ win 6 NBA finals with?',
       answer: 'Chicago Bulls'
-    }
-    // },
-    // {
-    //   id: 4,
-    //   text:'What\'s the name of the movie Michael Jordan starred in with Bugs Bunny?',
-    //   answer: 'Space Jam'
-    // },
-    // {
-    //   id: 5,
-    //   text:'What MLB Baseball team did MJ play for?',
-    //   answer: 'White Soxs'
-    // },
-    // {
-    //   id: 6,
-    //   text:'What college did Michael Jordan attend?',
-    //   answer: 'UNC'
-    // },
-    // {
-    //   id: 7,
-    //   text:'What shoes did MJ wear in the flu game?',
-    //   answer: 'Air Jordan 12 Black/Red'
-    // },
+    },
+    {
+      id: 4,
+      text:'What\'s the name of the movie Michael Jordan starred in with Bugs Bunny?',
+      answer: 'Space Jam'
+    },
+    {
+      id: 5,
+      text:'What MLB Baseball team did MJ play for?',
+      answer: 'White Soxs'
+    },
+    {
+      id: 6,
+      text:'What college did Michael Jordan attend?',
+      answer: 'UNC'
+    },
+    {
+      id: 7,
+      text:'What shoes did MJ wear in the flu game?',
+      answer: 'Air Jordan 12 Black/Red'
+    },
 ]
 
 var currentQuestion=0;
@@ -89,7 +88,7 @@ function beginGame() {
     $(".alert").css("display", "block");
     $(".answer").css("display", "block");
     $(".alert").html(output);
-    $(".answer").html("The Answer Is: "+questionList[currentQuestion].answer);
+    $(".answer").html("THE ANSWER IS: "+questionList[currentQuestion].answer);
     $(".scoreboard").html("SCORE: "+score);
     //if right, congratulate the player
     //else, let the player know that they guessed wrong
