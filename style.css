@@ -10,14 +10,14 @@ h1 {
 }
 
 h2 {
-  color: #red;
   background: #000000;
   font-style: normal;
   font-family: sans-serif;
   text-align:center;
-  position: relative;
-  bottom: 350px;
-  padding: 15px 15px;
+  /*position: relative;*/
+  padding: 20px 20px;
+  margin-bottom: 0px;
+  margin-top: 0px;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   font-weight: bold;
 }
@@ -33,22 +33,9 @@ body {
 }
 
 a.btn {
-    background-color: #ff0000; /* Red */
     border: none;
     color: white;
-    padding: 15px 12px;
-    text-align: center;
     text-decoration:none;
-    display: inline-block;
-    font-size: 16px;
+    font-size: 36px;
     font-family: sans-serif;
 }
-
-/*.tint {
-  position: relative;
-  float: left;
-  margin-right: 20px;
-  margin-bottom: 20px;
-  cursor: pointer;
-  box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
-}*/
