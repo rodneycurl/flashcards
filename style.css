@@ -4,22 +4,43 @@ h1 {
   font-family: sans-serif;
   text-align: center;
   font-size: 135px;
-  padding-top: 230px;
+  margin-top: 130px;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   font-weight: bold;
 }
+
+/*h1:hover {
+  color: #FF0000;
+  font-style: normal;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 135px;
+  margin-top: 130px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-weight: bold;
+}*/
 
 h2 {
   background: #000000;
   font-style: normal;
   font-family: sans-serif;
   text-align:center;
-  /*position: relative;*/
   padding: 20px 20px;
-  margin-bottom: 0px;
-  margin-top: 0px;
+  margin: 0px 380px 0px 380px;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   font-weight: bold;
+}
+
+h2:hover {
+  background: #D4361D;
+  font-style: normal;
+  font-family: sans-serif;
+  text-align:center;
+  padding: 20px 20px;
+  margin: 0px 380px 0px 380px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 52px;
 }
 
 body {
@@ -38,4 +59,16 @@ a.btn {
     text-decoration:none;
     font-size: 36px;
     font-family: sans-serif;
+    margin-bottom: 400px;
+}
+
+p {
+  font-size: 12px;
+  margin-top: 100px;
+  text-decoration:none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
