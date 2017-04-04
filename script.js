@@ -81,6 +81,7 @@ function beginGame() {
     //check user input against the answer
     if (userinput == questionList[currentQuestion].answer){
           output = "Correct";
+          // $(this).append($("<div class='correct'></div>"))
           score++;
     } else {
       output = "Wrong";
@@ -99,8 +100,6 @@ $(".next").click(nextQuestion);
 function nextQuestion(){
   //instead of console log, this is where you would use jquery to change the text/images on DOM
 
-  console.log(currentQuestion);
-  console.log(questionList.length);
   if (currentQuestion == (questionList.length-1)){
     output = "Game Over";
     $(".alert").html(output);
