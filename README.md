@@ -1,6 +1,8 @@
-# Michael Jordan Trivia Game By Rodney Curl
+# Michael Jordan Trivia Game
 Project 1 - Michael Jordan Trivia Game
 
-Instructions: I've created a Michael Jordan Trivia game. Please read each question and input your answer in the input box. If you are correct or wrong you will be notified on whether or not you made the right guess. Go through every questions until you have finished the game.
+**Project Background:** This was my first project assignment at General Assembly. I was tasked with creating a trivia game application within 2-3 days after learning about html, css, and javascript.
 
-Enjoy!
+**Instructions:** Click Start Game and answer as many questions correctly as you possibly can. As you go throughout the game you will be told which questions you have gotten correct.
+
+**Tools:** HTML, CSS, JavaScript

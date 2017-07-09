@@ -29,7 +29,6 @@ h4 {
   width: 100%;
   height: 100%;
   overflow:hidden;
-  /*background-size: contain;*/
 }
 
 body {
@@ -50,7 +49,6 @@ main {
   font-family: sans-serif;
   font-size: 30px;
   background: white;
-  /*background: rgba(255, 255, 255, 0.6);*/
 }
 
 .btn {
@@ -74,7 +72,6 @@ main {
   padding: 12px 20px;
   font-size: 14px;
   width: 300px;
-  /*margin: 8px -4px;*/
   margin: 0 auto;
 }
 
@@ -116,25 +113,3 @@ main {
 .playagain {
   display: none;
 }
-/*.correct {
-  position: absolute;
-  top: 100px
-  width: 400px;
-  height: 300px;
-  background-color: red;
-  background-image: url(mj-photos/allgifs/correct/correct-ewing-dunk-2.gif);
-}*/
-/*.tint {
-  position: relative;
-  float: left;
-  margin-right: 20px;
-  margin-bottom: 20px;
-  cursor: pointer;
-  box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
-}*/
-
-/*#square {
-	width: 500px;
-	height: 500px;
-	background: red;
-}*/
