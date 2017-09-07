@@ -2,11 +2,11 @@ h1 {
   color: #000000;
   font-style: normal;
   font-variant: normal;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-family: 'Rubik Mono One', "Trebuchet MS", Arial, sans-serif;
   font-weight: bold;
   text-align: center;
   font-size: 35px;
-  padding: 5px 0px 30px 0px;
+  padding: 30px 0px 30px 0px;
   margin: 0;
 	line-height: 30px;
 }
@@ -38,7 +38,7 @@ body {
 }
 
 main {
-  width: 720px;
+  width: 100%;
   background: white;
   margin: 0 auto;
   height: 100vh;

@@ -1,11 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  text-align: center;
+}
+
+
+p {
+  font-size: 12px;
+  margin-top: 100px;
+  text-decoration:none;
+}
+
 h1 {
   color: #ffffff;
   font-style: normal;
   font-family: sans-serif;
   text-align: center;
-  font-size: 135px;
+  font-size: 100px;
   margin-top: 130px;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-family: 'Rubik Mono One', "Trebuchet MS", Arial, sans-serif;
   font-weight: bold;
 }
 
@@ -13,28 +35,29 @@ h2 {
   background: #000000;
   font-style: normal;
   font-family: sans-serif;
-  text-align:center;
+  text-align: center;
   padding: 20px 20px;
-  margin: 0px 380px 0px 380px;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  margin: 50px 380px 0px 380px;
+  font-family: 'Press Start 2P', "Trebuchet MS", Arial, sans-serif;
   font-weight: bold;
 }
 
 h2:hover {
-  background: #FF0000;
+  background: #202020;
   font-style: normal;
   font-family: sans-serif;
+  color: lime;
   text-align:center;
   padding: 20px 20px;
-  margin: 0px 380px 0px 380px;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  margin: 50px 380px 0px 380px;
+  font-family: 'Press Start 2P', "Trebuchet MS", Arial, sans-serif;
   font-weight: bold;
 }
 
 body {
   background: rgba(0, 0, 0, 0.7);
   background: rgb(0, 0, 0);
-  background-image: url("https://i.ytimg.com/vi/rzQAC8kPJxo/maxresdefault.jpg");
+  background-image: url("mj-photos/allgifs/correct/jordan-trivia.gif");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -mozbackground-size: cover;
@@ -51,13 +74,26 @@ a.btn {
     margin-bottom: 400px;
 }
 
-p {
-  font-size: 12px;
-  margin-top: 100px;
-  text-decoration:none;
+button {
+    border: none;
+    color: white;
+    text-decoration:none;
+    font-size: 36px;
+    font-family: sans-serif;
+    margin-bottom: 400px;
 }
 
-a {
-  text-decoration: none;
-  color: white;
+.start-btn {
+  margin-bottom: 50%;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  padding-left: 40%;
+}
+
+.bottom-half {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  /*background-color: #ff0000;*/
+  text-align: center;
 }
