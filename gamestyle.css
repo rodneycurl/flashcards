@@ -21,7 +21,7 @@ h2 {
 }
 
 h4 {
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-family: 'Press Start 2P', "Trebuchet MS", Arial, sans-serif;
   font-weight: bold;
 }
 
@@ -93,7 +93,7 @@ main {
 }
 
 .cardfront {
-  height: 300px;
+  height: 400px;
 }
 
 .question {
